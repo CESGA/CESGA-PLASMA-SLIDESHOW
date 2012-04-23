@@ -1,0 +1,22 @@
+<html>
+<script type='text/javascript' src='swfobject.js'></script>
+ 
+<div id='mediaspace'>This text will be replaced</div>
+ 
+<script type='text/javascript'>
+  var so = new SWFObject('player.swf','mpl','1125','820','9');
+  so.addParam('allowfullscreen','true');
+  so.addParam('allowscriptaccess','always');
+  so.addParam('wmode','opaque');
+  so.addVariable('author','CESGA');
+  so.addVariable('description','CESGA');
+  so.addVariable('duration','1:40');
+  so.addVariable('file','ultimoCesga22.f4v');
+  so.addVariable('title','CESGA');
+  so.addVariable('autostart','true');
+  so.addVariable('icons','false');
+  so.addVariable('quality','false');
+  so.addVariable('repeat','always');
+  so.write('mediaspace');
+</script>
+</html>
